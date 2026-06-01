@@ -1,0 +1,7 @@
+services:
+  infinite-pi:
+    build: .
+    image: infinite-pi:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
